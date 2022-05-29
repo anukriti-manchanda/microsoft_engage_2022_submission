@@ -1,0 +1,49 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}" />
+  </head>
+  <body>
+    <div class="navbar">
+      <h1 class="logo">Drowsy Detect</h1>
+      <div class="flexDiv">
+        <a href="/" class="navLinks">Home</a>
+        <a href="/about" class="navLinks">About </a>
+        <a href="/creator" class="navLinks">Creator</a>
+        <a href="/dashboard" class="navLinks">Dashboard</a>
+      </div>
+      <a href="mailto:manchandaanukriti5@gmail.com">
+        <div class="btn">Contact Me</div></a
+      >
+    </div>
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Lat Long</th>
+          <th scope="col">City</th>
+          <th scope="col">State</th>
+          <th scope="col">Country</th>
+          <th scope="col">Time</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        {%for item in location%}
+        <tr>
+          <td scope="row">{{item.latlong}}</td>
+          <td>{{item.city}}</td>
+          <td>{{item.state}}</td>
+          <td>{{item.country}}</td>
+          <td>{{item.time}}</td>
+        </tr>
+        {%endfor%}
+      </tbody>
+    </table>
+  </body>
+</html>

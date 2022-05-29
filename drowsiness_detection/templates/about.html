@@ -1,0 +1,68 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Drowsy Detect</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}" />
+  </head>
+  <body>
+    <!-- Div for road in between the page -->
+
+    <div class="yellow1"></div>
+    <div class="dashed"></div>
+    <div class="yellow2"></div>
+    <img
+      src="https://images.pexels.com/photos/9661255/pexels-photo-9661255.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      class="imgRed"
+    />
+    <div class="redBox"></div>
+
+    <!-- Div End -->
+    <!-- Header -->
+    <div class="navbar">
+      <h1 class="logo">Drowsy Detect</h1>
+      <div class="flexDiv">
+        <a href="/" class="navLinks">Home</a>
+        <a href="/about" class="navLinks">About </a>
+        <a href="/creator" class="navLinks">Creator</a>
+        <a href="/dashboard" class="navLinks">Dashboard</a>
+      </div>
+      <a href="mailto:manchandaanukriti5@gmail.com">
+        <div class="btn">Contact Me</div></a
+      >
+    </div>
+    <div style="width: 50%">
+      <h1 class="mainHeading">
+        <span style="color: var(--theme)">About</span> Drowsy Detect
+      </h1>
+      <p class="text" style="font-size: 1.4rem">
+        <span style="color: var(--theme)"> Drowsiness Detection System</span> is
+        a web based project designed to detect if a person is drowsy or not. The
+        more specific aim of the project is to help reduce the accidents that
+        take place due to the little or no consciousness of the driver while
+        driving. The project detects if the driver is drowsy or not using the
+        face landmark detection and if yes, will make a beep noise to help the
+        driver stay awake at all times and will also fetch the location of the
+        car and store it in the database.
+      </p>
+    </div>
+    <div class="blackFooter">
+      <div class="flexDiv">
+        <h1>Safe</h1>
+        <h1>Smart</h1>
+        <h1>Secure</h1>
+      </div>
+      <div class="flexDiv">
+        <img
+          src="https://www.transparentpng.com/thumb/mustang/XqK5SO-mustang-photos.png"
+          class="vintage"
+        />
+        <h1>Made By Anukriti Manchanda</h1>
+      </div>
+    </div>
+  </body>
+</html>
