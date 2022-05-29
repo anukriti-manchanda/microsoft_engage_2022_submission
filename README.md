@@ -46,9 +46,7 @@
  ### Prerequisites
  ---
  - Python should be installed
- <br>
  - VS Code should be installed.
- <br>
  - 'shape_predictor_68_face_landmark.dat' should be installed and extracted
 
  ### Steps to start working on the project
