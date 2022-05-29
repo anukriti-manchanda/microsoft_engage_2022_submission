@@ -88,6 +88,16 @@ django-admin startproject drowsiness_detection
  python manage.py startapp home
  ```
  - Also create the templates folder and the static folder for your templates and static files and you are good to go.
+ - This is what the outer folder looks like.
+ 
+ 
+ -![image](https://user-images.githubusercontent.com/95353019/170871912-4d33a85a-2808-4b30-836a-b0e6b972b039.png)
+
+ - This is what the drowsiness_detection folder looks like.
+ 
+ ![image](https://user-images.githubusercontent.com/95353019/170872137-446b31ab-007c-464d-8375-dcf1fbbb0b9a.png)
+
+
 
 ### Packages to be installed
 ---
