@@ -26,7 +26,6 @@
  - Asks for login details and stores login details in database
  - Alarm (beep sound) is played if the driver becomes drowsy as an alert or warning
  - Fetches location details(latitude,longitude,city,state,country) and time of the user from his/her ip address and stores in the database.
- <br />
  It is also displayed on the dashboard on the webpage
 
  ## _Version of apps/modules being used in the project_
